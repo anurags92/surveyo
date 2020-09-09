@@ -9,6 +9,9 @@
 
   # Default build command.
   command = "npm run build"
+  environment = { REACT_APP_GRAPHQL_ENDPOINT = "" }
+
+  
 
 [[redirects]]
   from = "/*"
